@@ -14,7 +14,11 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-image: url('../assets/christmas-bg.jpg');
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +39,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.christmasCountdown {
+  font-family: 'Mountains of Christmas', cursive;
 }
